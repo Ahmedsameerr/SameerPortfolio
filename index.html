@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/167387c9a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Sameer</span> Ahmed <br>From Tirupattur </h1>
+                <a href="DOC-20230414-WA0004..pdf" download class="btn1">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi,Iam a Front-End Developer with a strong foundation in HTML, CSS, JavaScript, and Bootstrap. I also have experience with jQuery and Iam familiar with popular frameworks such as Node.js and React.js. In my previous projects, I have delivered responsive and user-friendly websites that meet the needs of my clients. Feel free to take a look at my resume or contact me for more information.</p>
+
+
+
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                      <li><span>Front-End</span><br>Designing Web Interfaces</li>
+                      <li><span>Web Developement</span><br>Web app Developement</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                      <li><span>2022-2023</span><br>Developer Trainee At Famysys Technology</li>
+                      <li><span>2017-2021</span><br>B.E From Dhaanish Ahmed collage Of Engineering</li>
+                    </ul>
+                  </div>
+                  
+                  
+                  
+                  
+                  
+                  
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="services">
+    <div class="container">
+        <div class="sub-title">My Services</div>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p class="card-text">As a passionate web designer, I have developed a strong skill set in HTML, CSS, JavaScript, and Bootstrap. I have a proven track record of creating more than 5 responsive websites that are optimized for both desktop and mobile devices. In addition to my technical skills, I am also highly creative and dedicated to delivering the best possible results for my clients. Whether I am working on a simple brochure website or a complex e-commerce platform, I always approach every project with enthusiasm and a commitment to excellence.</p>
+                
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-laptop"></i>
+                <h2>Software Developing</h2>
+                <p class="card-text">As a web designer with expertise in HTML, CSS, and JavaScript, I have extensive experience in designing and developing user interfaces for websites and applications. In my past projects, I have used these skills to create visually appealing and intuitive interfaces that meet the needs of my clients or organizations. I have also had the opportunity to work with various content management systems and have experience theming websites semantically with HTML and CSS, and adding interactivity with JavaScript libraries such as jQuery.</p>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work
+        </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>Food Delivery App</h3>
+                    <p>Our demo website is a sample web page that showcases the design and layout skills of our team. The website is built using HTML and CSS and does not include any functionalities. It features a modern and responsive design that adapts to different screen sizes and resolutions. The website includes various page elements such as a header, a navigation menu, a hero image, and a footer.Our demo website is a work in progress and we welcome any feedback or suggestions for improvement.</p>
+                    <a href="https://samsfav.netlify.app/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>Our Netflix main page is a static web page that replicates the look and feel of the main page of the popular streaming service Netflix. The page is built using HTML and CSS anddoes not include any JavaScript functionality.Our Netflix main page project is a tribute to the innovative and user-centered design of the real Netflix main page.</p>
+                    <a href="https://sameerresponsive.netlify.app/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Guessing Number</h3>
+                    <p>the Guessing Number is a fun game that challenges player to guess a randomly generated number within a range</p>
+                    <a href="https://guessingnumberbysam.netlify.app/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1> 
+                <p><i class="fa-solid fa-paper-plane"></i>asameerahmed1999@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9080953471</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100018225513250" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Ahmedsameerr" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/asameerahmed1999 target=" _blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sameer-ahmed-a48b90240" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/9080953471" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        
+            <div class="contact-right"> 
+                <form action="">
+                    <input type="name" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Enter Your Message"></textarea>
+                   <button class="btn1 btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="copyright">
+    <p>copyright &copy Sameer Ahmed-2022| All Right Reservrd</p>
+</footer>
+
+<script>
+let tablinks = document.getElementsByClassName('tab-links');
+let tabcontents = document.getElementsByClassName('tab-contents');
+
+function opentab(tabname) {
+  for (taplink of tablinks) {
+    taplink.classList.remove('active-link');
+  }
+  for (tapcontent of tabcontents) {
+    tapcontent.classList.remove('active-tab');
+  }
+  event.currentTarget.classList.add('active-link');
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+<script>
+    let sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
